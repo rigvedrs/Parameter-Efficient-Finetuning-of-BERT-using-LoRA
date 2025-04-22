@@ -1,7 +1,5 @@
 # Parameter-Efficient Fine-Tuning of BERT for Text Classification on AGNEWS Dataset
 
-![Training Loss](imgs/training_loss.png)
-
 ## Authors
 - Joseph Amigo (ja5009@nyu.edu)
 - Rigved Shirvalkar (rss9347@nyu.edu)
@@ -55,6 +53,10 @@ Models were trained under consistent settings to ensure fair comparison:
 ## Results
 
 ![Evaluation Loss](imgs/eval_loss.png)
+
+![Training Loss](imgs/trainLoss.png)
+
+
 
 Our final model configuration uses RoBERTa-base with the following LoRA setup:
 - LoRA adapters applied to query, key, and value matrices
