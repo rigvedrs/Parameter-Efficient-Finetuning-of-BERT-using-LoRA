@@ -52,7 +52,7 @@ Models were trained under consistent settings to ensure fair comparison:
 
 ## Results
 
-![Evaluation Loss](imgs/eval_loss.png)
+![Evaluation Loss](imgs/evalLoss.png)
 
 ![Training Loss](imgs/trainLoss.png)
 
@@ -69,8 +69,8 @@ Performance metrics:
 - **Training Stability**: Consistent and smooth convergence across multiple runs
 - **Inference Efficiency**: 1.8× faster than larger model variants
 
-![Evaluation Precision](imgs/eval_precision.png)
-![Evaluation Recall](imgs/eval_recall.png)
+![Evaluation Precision](imgs/evalPrecision.png)
+![Evaluation Recall](imgs/evalRecall.png)
 
 ### Performance Comparison
 
